@@ -48,6 +48,7 @@ services:
       - '8080:8080'
     volumes:
       - '/Volumes/Project/Coingecko/dags:/opt/bitnami/airflow/dags'
+volumes:
   postgresql_data:
     driver: local
   redis_data:
